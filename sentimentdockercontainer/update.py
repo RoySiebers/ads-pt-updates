@@ -1,4 +1,6 @@
-from flask import Flask, request, Response, abort
+from flask import Flask, request, Response
+import requests
+from datetime import datetime
 import pandas as pd
 import numpy as np
 import json
@@ -11,9 +13,21 @@ line2 = "Test"
 df_items = pd.read_csv("result.csv")
 
 
-def run_update_analysis(text):
+def run_update_analysis():
+    response = requests.post('http://192.168.27.170/graphql', json={'query': '''
+    {
+    updates {
+        id
+        title
+        date
+        content
+    }
+    }
+    '''})
+
+    last_update = json.loads(response.text)["data"]["updates"][0]
     items = []
-    for line in text.splitlines():
+    for line in last_update['content'].splitlines():
         for item in df_items["name"].unique():
             if item.upper() in line.upper():
                 item_change = ''
@@ -36,8 +50,7 @@ app = Flask(__name__)
 
 @app.route('/run-updatescan', methods=['POST'])
 def Start():
-    string = request.data.decode("utf-8")
-    return json.dumps(run_update_analysis(string))
+    return json.dumps(run_update_analysis())
 
 
 if (__name__ == '__main__'):
