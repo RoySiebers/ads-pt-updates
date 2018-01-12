@@ -37,7 +37,6 @@ app = Flask(__name__)
 @app.route('/run-updatescan', methods=['POST'])
 def Start():
     string = request.data.decode("utf-8")
-    # return string
     return json.dumps(run_update_analysis(string))
 
 
