@@ -1,9 +1,7 @@
-from flask import Flask, request, Response
-import requests
-from datetime import datetime
-import pandas as pd
-import numpy as np
 import json
+import requests
+import pandas as pd
+from flask import Flask
 
 print("Starting update analysis.")
 
