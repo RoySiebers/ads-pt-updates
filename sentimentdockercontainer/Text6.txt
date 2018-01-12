@@ -1,4 +1,3 @@
-
 Vorkath & Metal Dragons: Feedback Tweaks
 mod_ayiza
 January 05 2018
@@ -19,7 +18,7 @@ Vorkath
     The Salve Amulet will now be effective against Vorkath, both for its quest and post-quest forms.
         We originally opted to not include the Salve Amulet in order to provide the choice between using either a Slayer helmet or Serpentine helm. This hadn't worked out as well as we'd hoped. This change should make killing Vorkath more viable whilst not on a Slayer task.
     Vorkath's post-quest HP has been reduced to 750.
-        We knew you'd be good, but initial kill times of Vorkath were higher than we'd anticipated. We increased Vorkath’s health in an attempt to slow down kills, giving us more time to work out changes. In hindsight, 1000 HP was too much of an increase. With the above changes, we're now comfortable with lowering its health to a much lower amount.
+        We knew you'd be good, but initial kill times of Vorkath were higher than we'd anticipated. We increased Vorkathï¿½s health in an attempt to slow down kills, giving us more time to work out changes. In hindsight, 1000 HP was too much of an increase. With the above changes, we're now comfortable with lowering its health to a much lower amount.
     Vorkath's quest form HP has been increased to 460 due to the Salve amulet now being effective.
     In light of the above changes, the kill-duration timer records for Vorkath will once again be reset.
 
