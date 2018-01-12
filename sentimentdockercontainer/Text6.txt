@@ -1,0 +1,39 @@
+
+Vorkath & Metal Dragons: Feedback Tweaks
+mod_ayiza
+January 05 2018
+Vorkath & Metal Dragons: Feedback Tweaks
+Vorkath & Metal Dragons: Feedback Tweaks
+
+Since the launch of Dragon Slayer II yesterday, we've been keeping a close eye on all of your feedback coming in. Today, we'd like to make a few changes based on that feedback. We'll be monitoring them throughout the rest of the day to fully gauge their impact and will be updating this post with any further changes if they're necessary.
+
+
+Before we discuss changes, we'd like to take a moment to say thank you all for your feedback. It seems like many of you have thoroughly enjoyed the quest which is great to hear! If you've completed the quest and are itching to relive your heroic efforts, we're planning on releasing a repeatable version of Galvek in the coming weeks alongside allowing you to rewatch certain cutscenes. Whilst there will be no additional rewards for doing so, we hope it's something you'll enjoy!
+
+All of the below changes have been hotfixed and are now live in-game.
+
+Vorkath
+
+    During the poison-pool phase, Vorkath will take substantially reduced damage.
+        We don't want to punish those able to utilise current mechanics by making Vorkath completely immune to damage during this phase. This change should level the playing field for those not damaging during this phase - you will still be able to kill the boss faster by doing so, just not as fast.
+    The Salve Amulet will now be effective against Vorkath, both for its quest and post-quest forms.
+        We originally opted to not include the Salve Amulet in order to provide the choice between using either a Slayer helmet or Serpentine helm. This hadn't worked out as well as we'd hoped. This change should make killing Vorkath more viable whilst not on a Slayer task.
+    Vorkath's post-quest HP has been reduced to 750.
+        We knew you'd be good, but initial kill times of Vorkath were higher than we'd anticipated. We increased Vorkath’s health in an attempt to slow down kills, giving us more time to work out changes. In hindsight, 1000 HP was too much of an increase. With the above changes, we're now comfortable with lowering its health to a much lower amount.
+    Vorkath's quest form HP has been increased to 460 due to the Salve amulet now being effective.
+    In light of the above changes, the kill-duration timer records for Vorkath will once again be reset.
+
+Rune Dragons
+
+    We have reduced the rate at which the Rune dragon special attacks can be cast.
+
+Adamant Dragons
+
+    The delay on the Adamant dragon poison bomb attack has been increased, making it slightly easier to dodge.
+    Adamant dragon's armour-piercing attack damage can now be reduced by 50% whilst using the Protect from Missiles prayer.
+    We have reduced the rate at which the Adamant dragon special attacks can be cast.
+
+We'll be closely monitoring your interactions with Vorkath, Adamant and Rune dragons over the course of the next few days, including any feedback we receive. We're currently not looking to make any changes to its drop table until we've gathered more information based on the changes, but we encourage you to provide any feedback in this forum post.
+
+Mods Archie, Ash, Ayiza, Curse, Ed, Ghost, Jed, John C, Kieren, Mat K, Maz, Roq, Ry, Stone, Sween, TomH, Weath, West & Wolf
+The Old School Team
