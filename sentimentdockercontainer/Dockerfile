@@ -6,6 +6,4 @@ WORKDIR /opt/app
 RUN pip install -r requirements.txt
 COPY . /opt/app
 
-EXPOSE 5000 5000
-
-CMD [ "python", "/opt/app/SentimentAnalysis.py" ]
+CMD [ "python", "/opt/app/update.py" ]
