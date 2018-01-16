@@ -61,10 +61,10 @@ def run_update_analysis():
 app = Flask(__name__)
 
 
-@app.route('/run-updatescan', methods=['POST'])
+@app.route('/', methods=['POST'])
 def Start():
     return json.dumps(run_update_analysis())
 
 
 if (__name__ == '__main__'):
-    app.run(port=5000)
+    app.run(port=5001)
