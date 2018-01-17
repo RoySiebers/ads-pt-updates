@@ -2,6 +2,8 @@ import json
 import requests
 import pandas as pd
 from flask import Flask
+from flask_cors import CORS
+
 
 print("Starting update analysis.")
 
@@ -59,6 +61,7 @@ def run_update_analysis():
 
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/', methods=['POST'])
